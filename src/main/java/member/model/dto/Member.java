@@ -7,6 +7,7 @@ public class Member {
 	private String memberId;
 	private String password;
 	private String memberName;
+	private String nickname;
 	private MemberRole memberRole; // enum U A
 	private String phone;
 	private String email;
@@ -18,12 +19,13 @@ public class Member {
 		super();
 	}
 
-	public Member(String memberId, String password, String memberName, MemberRole memberRole, String phone,
-			String email, Date birthday, String gender, Date enrollDate) {
+	public Member(String memberId, String password, String memberName, String nickname, MemberRole memberRole,
+			String phone, String email, Date birthday, String gender, Date enrollDate) {
 		super();
 		this.memberId = memberId;
 		this.password = password;
 		this.memberName = memberName;
+		this.nickname = nickname;
 		this.memberRole = memberRole;
 		this.phone = phone;
 		this.email = email;
@@ -54,6 +56,14 @@ public class Member {
 
 	public void setMemberName(String memberName) {
 		this.memberName = memberName;
+	}
+
+	public String getNickname() {
+		return nickname;
+	}
+
+	public void setNickname(String nickname) {
+		this.nickname = nickname;
 	}
 
 	public MemberRole getMemberRole() {
@@ -106,8 +116,8 @@ public class Member {
 
 	@Override
 	public String toString() {
-		return "Member [memberId=" + memberId + ", password=" + password + ", memberName=" + memberName
-				+ ", memberRole=" + memberRole + ", phone=" + phone + ", email=" + email + ", birthday=" + birthday
-				+ ", gender=" + gender + ", enrollDate=" + enrollDate + "]";
-	}	
+		return "Member [memberId=" + memberId + ", password=" + password + ", memberName=" + memberName + ", nickname="
+				+ nickname + ", memberRole=" + memberRole + ", phone=" + phone + ", email=" + email + ", birthday="
+				+ birthday + ", gender=" + gender + ", enrollDate=" + enrollDate + "]";
+	}
 }

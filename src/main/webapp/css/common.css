@@ -31,7 +31,7 @@ div#container	{background-color:#FFF; width:1324px; height: 80px; margin:0 auto;
 }
 
 .search-member-wrapper{
-	display: flex; flex-direction: row; justify-content:space-between; align-items: flex-start; width: 600px; height: 74px; margin: 0; padding: 0 10px;
+	display: flex; flex-direction: row; justify-content:space-between; align-items: flex-start; width: 600px; height: 54px; margin: 0; padding: 0 10px;
 }
 
 .submenu-container {
@@ -41,7 +41,9 @@ div#container	{background-color:#FFF; width:1324px; height: 80px; margin:0 auto;
 .search-container, .global-search-combobox, .search-wrapper { 
  	width: 330px; height: 44px; margin: 0 5px; padding: 0px;
 }
-
+.login-member-menu-wrapper{
+	display: flex; flex-direction: row; align-items: flex-start; width: 250px; height: 30px;
+}
 .search-wrapper{
 	display: flex; align-items:center; box-sizing: border-box; border: 1px solid #C2C8CC; border-radius: 4px; margin: 0px;
 }
@@ -58,16 +60,42 @@ div#container	{background-color:#FFF; width:1324px; height: 80px; margin:0 auto;
 }
 
 .member-menu-container {
-	display:flex; width: 300px;
+	display:flex; width: 300px; height: 42px;
+}
+.member-menu-cont{
+	display:flex; align-items: flex-end; justify-content: space-between; width: 110px; height: 25px; padding: 0px;
+}
+.member-menu-cont-wrapper{
+	display:flex; flex-direction: column; justify-content: flex-start; align-items: center;	 width: 25px; height: 25px; padding: 0px;	
 }
 .member-menu-wrapper {
-	display:flex; justify-content: space-around; width:200px;
+	display:flex; align-items: flex-end; justify-content: space-between; width:200px;
 }
-.member-menu {
-	font-size: 16px; line-height: 20px; position: relative; font-weight: 500;  color: #2F3438;
+.member-menu, .member-menu-cont {
+	font-size: 16px; line-height: 20px; position: relative; font-weight: 500;  color: #000; margin: 0 5px;
+}
+.member-sub-menu {
+	visibility: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: relative;
+	width: 150px;
+	height: 65px;
+	background-color: #fff;
+	border: solid 1px #cacaca;	
+    border-radius: 6px;
+    box-shadow: rgb(63 71 77 / 20%) 0px 4px 10px 0px;
 }
 
-.sticky-container a, .submenu-nav-wrapper a, member-menu a{  text-decoration: none; color: #000; font-family: 'Noto Sans KR', sans-serif;}
+.member-sub-menu a {
+	width: 150px;
+	height: 35px;
+	font-size: 1.1rem;
+	margin: 6px 0;	
+}
+.sticky-container a, .submenu-nav-wrapper a, .member-menu a{  text-decoration: none; color: #000; font-family: 'Noto Sans KR', sans-serif;}
+.member-menu{    font-size: 14px;}
 .home-menu {
 	font-family: 'Oleo Script', cursive; font-style: italic; font-size: 2rem; color: #000; text-decoration: none;  font-weight: bold;
 }
@@ -105,15 +133,28 @@ div#container	{background-color:#FFF; width:1324px; height: 80px; margin:0 auto;
 	 color: #34C5F0;  font-size: 20px; border-bottom: solid 1px #34C5F0;
  }
  
-.cart-btn {
-	width: 25px; height: 25px; cursor:pointer; margin: 4px 0px 0px 13px;
+.cart-btn, .scrap-btn, .notification-btn, .mypage-btn-img {
+	width: 25px; height: 25px; cursor:pointer;	
+}
+#btn-my-submenu{background-color: #fff; border: none; width: 25px; height: 25px; padding: 0px;	}
+	
+.member-cart-btn {
+	width: 25px; height: 25px; cursor:pointer;	
+}
+.common-cart-btn {
+	width: 25px; height: 25px; cursor:pointer;	
 }
 .btn-write-menu {
-	display:inlie-block; background-color: #00B8F0; width: 75px; height: 40px; border-style: none; border-radius: 4px; font-size: 14px;
+	 background-color: #00B8F0; width: 75px; height: 25px; border-style: none; border-radius: 4px; font-size: 14px;
     line-height: 18px; cursor:pointer;
 }
 .member-write, .down-arrow {
 	color: #fff; 
+}
+.passed-hidden-text{
+	font-size: 20px;
+	color: black;
+	text-align: center;
 }
 
 /********** footer **********/

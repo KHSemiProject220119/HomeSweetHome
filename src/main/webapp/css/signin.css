@@ -1,0 +1,190 @@
+
+/* ====================================== section ===================================== */
+hr {width: 1284px;}
+
+.input-wrapper .input-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 46px;
+    background: #FFFFFF;
+    border: 1px solid #CACACA;
+    border-radius: 4px;
+    padding: 0px 42px 0px 16px;
+    margin: 0 auto;
+}
+
+.input-wrapper .input-container input::placeholder {
+    color: #CACACA;
+    background-color: #fff;
+}
+
+#input-user-id, #input-password, #input-order-no, #input-email  {
+    border: 0px;
+    width: 350px;
+    height: 40px;
+    font-size: 1.3rem;
+    background-color: #fff;
+}
+
+#input-user-id:focus, #input-password:focus, #input-order-no:focus, #input-email:focus {
+    outline: none;
+}
+
+section p, section a {
+    font-family: 'Jua', sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+.social-login p {
+	font-family: 'Jua', sans-serif;
+    font-size: 1.2rem;
+	margin: 0;
+}
+.social-login{
+	display: flex;
+	width: 1284px;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+
+}
+
+.social-site {
+	display: flex;
+	flex-direction: row
+	
+}
+
+#kakao-icon, #google-icon {
+	width: 50px;
+	height: 50px;
+	cursor : pointer;
+}
+
+button {
+    font-family: 'Jua', sans-serif;
+    background-color: #34C5F0;
+    border: none;
+    color: white;
+}
+
+.signinTtitle h3 {
+    color:  black;
+    font-family: 'Jua', sans-serif;
+	font-size: 4rem;
+	margin: 10px 0px 0px;
+    text-align: center;
+}
+
+.container{
+    min-height: 772px;
+}
+.wrapper{
+    text-align: center;
+    margin-top: 0px;
+}
+
+.logo-item{
+    margin-top:48px;
+}
+
+.login-title-item{
+    display: none;
+    margin-top: 88px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: -0.25px;
+    color: #333333;
+}
+
+.id-input{
+    margin-top: 50px;
+}
+
+.password-input{
+    margin-top: 8px;
+}
+
+.row{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 11px;
+    width: 360px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+
+.auto-login-item{
+    margin-right: auto;
+}
+
+.find-password-item{
+    margin-left: auto;
+}
+
+.link-divider-item{
+    width: 1px;
+    height: 10px;
+    margin: 0px 8px;
+    background: #DDDDDD;
+}
+
+#order-finder-wrapper {
+	position: hidden;
+}
+
+#btn-non-member-order {
+	width: 400px;
+	font-size: 2rem;
+	border-radius: 8px;
+	background-color: #FFF;
+    border: none;
+    color: #000;
+    margin: 0 695px;
+    cursor: pointer;
+   
+}
+
+#btn-login, #btn-non-member-finder{
+    width: 365px;
+    height: 48px;
+    margin: 0 720px;
+    border-radius: 5px;
+    font-size: 2rem;
+    line-height: 18px;
+    cursor: pointer;
+}
+
+#btn-non-member-finder{ 
+	width: 360px;
+    margin: 0 715px;
+}
+
+/* ====================================== popup ====================================== */
+.openBtn {
+    display: flex;
+    justify-content: left;
+}
+
+.openButton{
+    font-family: 'Dongle', sans-serif;  
+    font-size: 1.2rem;
+    text-shadow: none;
+    background : #34C5F0; 
+    color:#fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left:5px; 
+    padding:4px 6px; 
+    height: 30px;
+}
+

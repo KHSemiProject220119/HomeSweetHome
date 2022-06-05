@@ -1,0 +1,73 @@
+@charset "UTF-8";
+* {
+    box-sizing: border-box;
+}
+
+#checkId-container {
+    position: fixed;
+    width: 500px;
+    height: 345px;
+    background-color: #fff;
+    border: 3px solid #34C5F0;
+    border-radius: 30px;
+}
+
+#id-check-title {
+    font-family: 'Dongle', sans-serif;
+	font-size: 2.5rem;
+	color: #000;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+.passed {
+	font-family: 'Dongle', sans-serif;
+	font-size: 1.5rem;
+	color: #000;
+    margin-top: 60px;
+    text-align: center;
+}
+.failed {
+	font-family: 'Dongle', sans-serif;
+	font-size: 1.5rem;
+	color: #000;
+    text-align: center;
+}
+
+#usable-id, #duplicated-id {
+	font-family: 'Dongle', sans-serif;
+	font-size: 2rem;
+	font-weight: bold;
+	color: #000;
+    margin-top: 70px;
+    text-align: center;
+}
+
+#checkIdDuplicateFrm{
+	display:flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+#memberId{
+	  width: 180px;
+      height: 40px;
+      font-size: 1rem;
+      padding: 0px;
+      border: #000 1px solid;
+      border-radius: 5px;
+      margin: 0 10px;
+}
+#btn-close, #btn-id-check {
+    font-family:'Noto Sans KR', sans-serif;
+	font-size: 1.1rem;
+    width: 82px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    background-color:  #34C5F0;
+}
+
+

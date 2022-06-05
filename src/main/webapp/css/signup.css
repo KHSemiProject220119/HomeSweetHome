@@ -1,0 +1,372 @@
+/* ==================================== section =================================== */
+
+.form {
+    display: block;
+    margin-top: 0rem;
+    margin: 0px auto;
+    font-family: 'Dongle', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+}
+
+body form  p {
+    font-size: 4rem;
+    margin: 2rem 0rem 1rem;
+}
+
+ .signupTitle { 
+    font-size: 5rem;
+    margin-top: 5rem;
+}
+
+.delete_btn img {
+    width: 15px;
+    height: 15px;
+}
+
+.container{
+    height: auto;
+}
+
+.input_container {
+    width: 290px;
+    height: 48px;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.input_container-gender{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 150px;
+    height: 48px;
+    margin: 0px auto;
+    padding: 0px;
+    border: 1px solid #CACACA;
+    border-radius: 4px;
+}
+
+.input_wrapper-gender{
+	width: 150px;
+    height: 48px;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+ 
+#id, #email{
+    width: 195px;
+    height: 42px;
+    font-size: 1rem;
+    border: 0px;
+    margin: 0;
+    padding: 0px;
+}
+
+#phone , #user_name, #user_nickname  {
+    width: 270px;
+    height: 42px;
+    font-size: 1rem;
+    border: 0px;
+    margin: 0 10px;
+}
+
+#password, #password_confirm {
+    width: 286px;
+    height: 42px;
+    font-size: 0.9rem;
+    border: 0px;
+ 
+}
+
+#address, #address_detail, #extraAddress {
+    border: 0;
+    width: 240px;
+    height: 43px;
+    font-size: 1rem;
+    margin: 0 auto;
+}
+
+#postcode {
+    border: 0;
+    width: 110px;
+    height: 43px;
+    font-size: 1rem;
+    margin: 0 auto;
+}
+
+#year , #month , #day {
+    width: 45px; 
+    height: 38px;
+    font-size: 0.8rem;
+    border: 0px;
+    padding: 0;
+}
+
+#gender-f-text{
+	margin-top : 8px;
+	font-size: 2.3rem;
+}
+.notice-text{
+	font-size: 1.3rem;
+}
+
+#id:focus , #password:focus, #password_confirm:focus , #user_name:focus, #user_nickname:focus, #phone:focus , #email:focus, #postcode:focus, #address:focus, #address_detail:focus, #extraAddress:focus, #year:focus, #month:focus, #day:focus  {
+    outline: none;
+}
+
+.wrapper{
+    padding-bottom: 40px;
+}
+
+.title_id{
+    margin-top: 40px;
+}
+.title_pw, .title-name, .title_phone{
+    margin-top: 24px;
+}
+
+.row_area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+.row_area .btn_white, .row_area .btn_blue{
+    width: 106px;
+    height: 48px;
+    margin-left: 8px;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: -0.25px;
+}
+
+.btn_certification{
+    width: 72px !important;
+}
+
+.row_area .input_wrapper{
+    margin-left: 8px;
+}
+
+.btn_signup{
+    width: 100%;
+    height: 48px;
+    margin-top: 56px;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.25px;
+}
+
+.neccesary-star {
+    color: red;
+    font-size: 21px;
+    margin: 5px;
+    display: inline-block;
+    position: absolute;
+}
+
+.input_wrapper{
+    margin-top: 8px;
+    flex: 1;
+}
+
+.input_wrapper_check .input_container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 46px;
+    width: 210px;
+    background: #FFFFFF;
+    border: 1px solid #CACACA;
+    border-radius: 4px;
+    padding: 0px 3px;
+
+}
+
+.address .input_container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 46px;
+    width: 268px;
+    background: #FFF;
+    border: 1px solid #CACACA;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.input_container_postCode {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 46px;
+    width: 135px;
+    background: #FFF;
+    border: 1px solid #CACACA;
+    border-radius: 4px;
+    padding: 0px 2px 0px 16px;
+}
+
+.input_container_birth {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 46px;
+    width: 212px;
+    background: #FFF;
+    border: 1px solid #CACACA;
+    border-radius: 4px;
+    padding: 0px 2px 0px 16px;
+    margin: 0 auto;
+}
+
+.input_wrapper .input_container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 46px;
+    background: #FFFFFF;
+    border: 1px solid #CACACA;
+    border-radius: 4px;
+    padding: 0px 42x 0px 16px;
+    
+}
+.input_wrapper .input_certification{
+    padding: 0px 60px 0px 16px;
+}
+
+.input_wrapper {
+    border-color: #777;
+}
+
+.input_wrapper .input_container input{
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: -0.25px;
+    color: #333;
+}
+
+.input_wrapper .input_container input::placeholder {
+    color: #CACACA;
+}
+#nickname-hidden-msg{
+	border: none;
+	flex-direction: column;
+}
+.failed-hidden-wrapper{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 290px;
+	height: 60px;
+	padding: 0;
+}
+
+.passed-hidden-text, .failed-hidden-text{
+	font-size: 20px;
+	text-align: center;
+	height: 60px;
+	margin: 0;
+}
+.failed-hidden-notice {
+	font-size: 20px;
+	color: red;
+	padding: 0;
+}   
+.renamedNick{
+	color: #34C5F0;
+} 
+.btn-renamed{
+	border: none;
+	background-color: #34C5F0;
+	color: #fff;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.btn_blue_id-email, .btn-id-check{
+    background: #34C5F0;
+    border: 1px solid #34C5F0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #FFF;
+    cursor: pointer;
+    width: 72px;
+    height: 48px;
+    margin: 0 5px;
+}
+
+.btn_blue{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #34C5F0;
+    border: 1px solid #34C5F0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.btn_white{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFF;
+    border: 1px solid #34C5F0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: bold;
+    color:  #34C5F0;
+    cursor: pointer;
+}
+
+.btn-signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #34C5F0;
+    border: 1px solid #34C5F0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #FFF;
+    width: 15rem;
+    height: 3rem;
+    margin: 20px auto;
+    border-radius: 5px;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.25px;
+    cursor: pointer;
+}
+
+.row_area_bir{
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    width: 320px;
+    margin: 8px auto;
+}
+
+.input_container_birth {
+    width: 62px;
+    padding: 0;
+}
+
+.signupInfoOptionTitle {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.signupInfoOptionTitle p {
+    font-size: 5rem;
+}
