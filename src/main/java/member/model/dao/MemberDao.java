@@ -19,6 +19,7 @@ import member.model.dto.Member;
 import member.model.dto.MemberRole;
 import member.model.exception.MemberException;
 
+
 public class MemberDao {
 	private Properties prop = new Properties();
 	
@@ -218,4 +219,5 @@ public class MemberDao {
 		}
 		return member;
 	}
+
 }

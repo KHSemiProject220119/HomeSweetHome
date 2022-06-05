@@ -71,6 +71,7 @@ showSubMenu = () => {
 								<div class="member-menu-container">
 								<% if(loginMember == null) { %>
 									<div class="member-menu-wrapper">
+
 										<a class="cart-wrapper" href="/member/cartList"> 
 											<image class="common-cart-btn" src= "<%=request.getContextPath() %>/images/cart.png;">
 										</a>
@@ -80,6 +81,7 @@ showSubMenu = () => {
 									</div>
 								<% } else if(loginMember != null && loginMember.getMemberRole() == MemberRole.A) { %>
 									<div class="login-admin-menu-wrapper">
+
 										<ul>
 											<li>
 												<a class="admin-menu" href="<%= request.getContextPath() %>/admin/memberList">회원목록</a>
