@@ -72,7 +72,7 @@
 				<td><%= member.getPhone() %></td>
 				<td><%= member.getEnrollDate() %></td>
 				<td><button type="button" class="btn-suspension">활동정지</button></td>
-				<td><button type="button" class="btn-forced-withdrawal">강제탈퇴</button></td>
+      	<td><button type="button" class="btn-forced-withdrawal">강제탈퇴</button></td>
 			</tr>			
 <%
 			}

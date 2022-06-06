@@ -1,5 +1,6 @@
 package common;
 
+
 import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -26,7 +27,7 @@ public class HomeSweetHomeUtils {
 		Encoder encoder = Base64.getEncoder();
 		return encoder.encodeToString(encrypted);
 	}
-	
+
 	public static String getPagebar(int cPage, int numPerPage, int totalContents, String url) {
 		StringBuilder pagebar = new StringBuilder();
 		int totalPages = (int) Math.ceil((double) totalContents / numPerPage); // 전체 페이지수
